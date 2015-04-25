@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE daogen-metadata>
+
+<daogen-metadata>
+   <version>2.4.1</version>
+   <timestamp>22.04.2015</timestamp>
+
+   <tableName>User</tableName>
+   <className>User</className>
+   <language>java</language>
+   <database>generic</database>
+   <useCache>false</useCache>
+   <classPackage>com.sigma.project.user</classPackage>
+   <columns>
+      <dbColumn PK="true" colType="Int" colName="user_id" varName="userId" 
+      automatic="false" valueSource="" indexed="true" colLength="10" orderLevel="1" orderType="ASC" />
+
+      <dbColumn PK="false" colType="String" colName="user_name" varName="userName" 
+      automatic="false" valueSource="" indexed="false" colLength="255" orderLevel="0" orderType="ASC" />
+
+      <dbColumn PK="false" colType="String" colName="password" varName="password" 
+      automatic="false" valueSource="" indexed="false" colLength="255" orderLevel="0" orderType="ASC" />
+
+      <dbColumn PK="false" colType="String" colName="remarks" varName="remarks" 
+      automatic="false" valueSource="" indexed="false" colLength="255" orderLevel="0" orderType="ASC" />
+
+      <dbColumn PK="false" colType="String" colName="status" varName="status" 
+      automatic="false" valueSource="" indexed="false" colLength="255" orderLevel="0" orderType="ASC" />
+
+      <dbColumn PK="false" colType="Date" colName="created_on" varName="createdOn" 
+      automatic="false" valueSource="" indexed="false" colLength="10" orderLevel="0" orderType="ASC" />
+
+      <dbColumn PK="false" colType="String" colName="created_by" varName="createdBy" 
+      automatic="false" valueSource="" indexed="false" colLength="255" orderLevel="0" orderType="ASC" />
+
+      <dbColumn PK="false" colType="Date" colName="edited_on" varName="editedOn" 
+      automatic="false" valueSource="" indexed="false" colLength="10" orderLevel="0" orderType="ASC" />
+
+      <dbColumn PK="false" colType="String" colName="edited_by" varName="editedBy" 
+      automatic="false" valueSource="" indexed="false" colLength="255" orderLevel="0" orderType="ASC" />
+
+   </columns>
+</daogen-metadata>
